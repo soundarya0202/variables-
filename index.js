@@ -54,16 +54,56 @@ console.log(x.toExponential(4))
 //to convert into string
 //op 1.456
 console.log(x.toString())
+//outputs informational message to console
+//op:soundarya
 
+//GLOBAL METHODS
 
+console.info("soundarya")
+//otputs a warning message to console
+//op:danger
+console.warn("danger")
+//outputs a error message
+//op:error
+console.error("error")
+//outputs a message to console
+//op print
+console.log("print")
+//outputs a table to console
+console.table(["one","two","three"])
+//outputs a alert message to the screen
+//alert("hello")
 
+//displays a dialog box 
+//  var p = prompt("Please enter your name");
 
+//displays a dialog box with a specified message
+//confirm("hello")
 
+//to convert data type to number
+//op null
+console.log(Number(str1))
 
+//returns true if variable is null
+//op true
+console.log(isNaN(str1))
 
+//Converts a string to a floating-point number.
+//op 10.456
+var y=("10.456")
+console.log(parseFloat(y))
 
-
-
+//Converts a string to an integer.
+//op-12
+var s=("12")
+console.log(parseInt(s))
+//coverts a integer to a string
+//op-1
+var n=1
+console.log(String(n))
+//returns true if it is boolean
+//op:true
+console.log(Boolean(n))
 
 
 
